@@ -1,0 +1,143 @@
+* {;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    ;
+}
+
+
+.image {
+    width: 100px;
+    margin: 15px;
+    margin-left: 22px;
+    margin-top: 150px;
+    border-radius: 50%;
+    outline: 6px solid rgb(88, 113, 204);
+
+
+}
+
+.body {;
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left:300px;
+}
+
+.body h1 {
+    font-size: 300%;
+    margin-top: 250px;
+    color: black;
+    padding: 20px;
+    background-color: white;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.menu {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(76, 35, 197);
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: list-item;
+    padding: 20px;
+    border-top: 0px;
+    border-bottom: 0px ;
+
+}
+
+.menu a:hover {
+    background-color: black;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+#para {
+    font-size: medium;
+    padding-left: 30px;
+    display: inline-block;
+}
+
+
+a {
+    font-size: medium;
+    color: rgb(111, 35, 197);
+    padding: 30px;
+}
+
+#para1 {
+    padding-left: 30px;
+    font-size: large;
+}
+
+#SAUD {
+    color: rgb(67, 53, 190);
+}
+
+.social {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 3rem;
+    color: rgb(5, 5, 55);
+    margin-bottom: 200px;
+}
+
+.social :hover {
+    background-color: rgb(117, 29, 211);
+    transition: 0.6s;
+    border-radius: 50%;
+}
+#date{
+    margin-left: 80%;
+    color: brown;
+    }
+
+
+.container{
+    width: 55rem;
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    display: block;
+    color:rgb(17, 17, 170);
+    text-align: left;
+}
+    h2{ margin-top: 50px;margin-bottom: 50px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    }
+    h3{
+        color: darkgray;
+    }
+    #hr{ width: 100%;
+    color:cadetblue}
+    .icons{
+        width: 90%;
+        display:inline-block ;
+        color: black;
+    }
+.work{display:inline-block;
+    letter-spacing: 1px;
+    margin-top: 10px;
+
+}
+.end{display: inline-block;}
+span{color:red;}
